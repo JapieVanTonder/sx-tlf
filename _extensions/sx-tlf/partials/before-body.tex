@@ -1,0 +1,20 @@
+%-----------------------------------------------------------------------------%
+%                            SOME PREAMBLE STUFF                              %
+%-----------------------------------------------------------------------------%
+
+%-----------------------------------------------------------------------------%
+%                            Set Page STYLE                                   %
+%-----------------------------------------------------------------------------%
+
+\setmainfont{Arial}
+
+\fancypagestyle{plain}{%
+  \fancyhf{}%
+  \fancyhead[L]{\footnotesize Cycle Pharma}
+  \fancyhead[R]{\footnotesize Protocol: CT-015}
+  \fancyfoot[L]{\footnotesize \today~[SAST]}
+  \fancyfoot[R]{\footnotesize Page \thepage\, of\, \pageref*{LastPage}}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0.4pt}% default is 0pt
+}
+\pagestyle{plain}
